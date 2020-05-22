@@ -1,0 +1,19 @@
+.promo {
+    min-height: 680px;
+    background: url(../img/header_bg.png) center (center/cover) no-repeat;
+    text-align: center;
+    &__header {
+        font-size: 72px;
+        color: $main_red;
+        font-family: "RobotoCondensed";
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        font-size: 42px;
+        color: $white;
+        font-family: "RobotoCondensed";
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}

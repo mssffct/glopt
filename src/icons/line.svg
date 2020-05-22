@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 809 10" width="809" height="10">
+	<defs>
+		<image width="809" height="10" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAykAAAAKCAMAAACHZOFdAAAAAXNSR0IB2cksfwAAAGxQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NhtAPQAAACR0Uk5TADigx7NkBHL+/78KPZGm8wdLzSS0uxJtwgjI9TIOnffGDCsYXyU7CQAAAIlJREFUeJzt00kOggAQRFEQVNoJAecJ1PvfUcKQEE10Z/Xiv2WvftKpIIAv4SiKxxN1BeDcNLHabK7uAFxbNEMxW6pDANdW7VAsXatL8Maglg3ekffHYnDcKOvQ+vcw8d22+0uyU5cAnu27pRzUIYBrx1MzlPNFHQL4dr2VZhVDAX65P57qBHx6AZrVH3cpsaxSAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="1 экран">
+		<g id="Полоска">
+			<use id="Ellipse 1" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
