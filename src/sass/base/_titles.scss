@@ -1,5 +1,17 @@
-// .header {
-//     &_main {
-        
-//     }
-// }
+.title {
+    &_black {
+        color: $black;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-transform: uppercase;
+        padding-top: 51px;
+    }
+}
+.delimeter {
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 148px;
+    height: 2px;
+    background-color: $main_red;
+}

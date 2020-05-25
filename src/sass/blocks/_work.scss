@@ -1,3 +1,39 @@
-.our_work {
+.work {
     height: 620px;
+    text-align: center;
+    &__descr {
+        margin-top: 17px;
+        height: 44px;
+        color: $black;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    &__items {
+        margin-top: 37px;
+    }
+    &__item {
+        
+        max-width: 360px;
+        margin-right: 30px;
+        padding: 0;
+        &:last-child {
+            margin-right: 0;
+        }
+        img {
+            height: 210px;
+        }
+        &_title {
+            margin-top: 27px;
+            color: $main_red;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &_text {
+            margin-top: 18px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    
 }

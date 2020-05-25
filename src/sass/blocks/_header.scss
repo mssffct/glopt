@@ -1,0 +1,66 @@
+.header {
+    position: relative;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    &__menu {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        padding: 0px;
+        list-style-type: none;
+        &:last-child {
+            padding-right: 50px;
+        }
+        &_item {
+            text-align: center;
+            border-right: 2px dotted $white;
+            height: 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 14px;
+            font-weight: 300;
+            & a {
+                color: white;
+                &:hover {
+                    color: $main_red;
+                    text-decoration: none;
+                    border-bottom: 1px $main_red solid;
+                }
+            }
+            &:nth-child(6)  {
+                border: none;
+                padding-right: 0px;
+            }
+        }
+    }
+    &__logo {
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+    &__contacts {
+        width: 340px;
+        display: flex;
+        margin-top: 41px;
+    }
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+        font-size: 14px;
+        line-height: 24px;
+        color: $white;
+        font-weight: 300;
+        text-align: right;
+
+        & a {
+            font-size: 19px;
+            line-height: 24px;
+            color: $white;
+            font-weight: 700;
+            text-align: right;
+            text-decoration: none;
+        }
+    }
+}

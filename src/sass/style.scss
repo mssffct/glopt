@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
+@import 'libs/bootstrap-grid.min';
 // @import 'libs/slick';
 // @import 'libs/animate';
 
@@ -8,12 +9,12 @@
 // @import 'base/animation';
 @import 'blocks/promo';
 @import 'blocks/header';
-// @import 'base/buttons';
+@import 'base/buttons';
 @import 'blocks/advantages';
 @import 'blocks/work';
 @import 'blocks/agents';
 @import 'blocks/price';
-// @import 'base/titles';
+@import 'base/titles';
 @import 'blocks/consultation';
 @import 'blocks/managers';
 @import 'blocks/scheme';
@@ -35,4 +36,5 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    text-align: center;
 }
