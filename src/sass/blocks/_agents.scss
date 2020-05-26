@@ -1,4 +1,21 @@
 .agents {
     height: 341px;
     background: url(../img/agents_bg.png) center (center/cover) no-repeat;
+    &__icon {
+        padding-top: 58px;
+    }
+    &__header {
+        margin-top: 20px;
+        color: $white;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+    }
+    &__text {
+        margin-top: 22px;
+        color: $white;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
 }

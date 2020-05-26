@@ -1,4 +1,31 @@
 .scheme {
     height: 455px;
     background-color: $grey;
+    &__items {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        &:last-child {
+            justify-content: center;
+            padding-right: 80px;
+        }
+    }
+    &__item {
+        max-width: 257px;
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &-header {
+            margin-top: 12px;
+            color: $main_red;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        &-descr {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+    }
 }
