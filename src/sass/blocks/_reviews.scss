@@ -1,3 +1,31 @@
 .reviews {
     height: 470px;
+    &__descr {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    &__slider {
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 1.2;
+        &_img {
+            margin: 0 auto;
+            width: 114px;
+            height: 114px;
+            border-radius: 50%;
+        }
+        &_name {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &_descr {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            max-width: 601px;
+            max-height: 80px;
+        }
+    }
 }

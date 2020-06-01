@@ -1,5 +1,5 @@
 {
-  "name": "pulse",
+  "name": "glopt",
   "version": "0.0.9",
   "description": "site",
   "main": "index.js",
@@ -12,7 +12,9 @@
   },
   "author": "Fil",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "vue-carousel-3d": "^0.2.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
