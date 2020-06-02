@@ -6,9 +6,10 @@
         line-height: 24px;
     }
     &__slider {
+        position: relative;
         margin: 0 auto;
         margin-top: 20px;
-        line-height: 1.2;
+        line-height: 22px;
         &_img {
             margin: 0 auto;
             width: 114px;
@@ -21,11 +22,29 @@
             font-weight: 700;
         }
         &_descr {
+            margin: 0 auto;
             margin-top: 10px;
             font-size: 14px;
             font-weight: 300;
             max-width: 601px;
-            max-height: 80px;
+        }
+        .slick-prev {
+            width: 14px;
+            height: 46px;
+            border: none;
+            background-color: inherit;
+            position: absolute;
+            top: 34px;
+            left: 410px;
+        }
+        .slick-next {
+            width: 14px;
+            height: 46px;
+            border: none;
+            background-color: inherit;
+            position: absolute;
+            top: 34px;
+            right: 420px;
         }
     }
 }
