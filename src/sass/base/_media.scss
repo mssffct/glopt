@@ -1,0 +1,47 @@
+@media ( max-width: 1200px) {
+    .header {
+        &__phone {
+            & a {
+                font-size: 13px;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 62px;
+        }
+        &__features {
+            &_descr {
+                font-size: 13px;
+            }
+        }
+    }
+    .consultation {
+        &-form {
+            padding: auto 30px;
+            width: 990px;
+        }
+    }
+    .reviews {
+        .slick-prev {
+            left: 310px;
+        }
+        .slick-next {
+            right: 320px;
+        }
+    }
+
+}
+@media ( max-width: 991px) {
+
+}
+@media ( max-width: 767px) {
+
+}
+@media ( max-width: 575px) {
+
+}
+@media ( max-width: 447px) {
+
+}
+

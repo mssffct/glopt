@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -136,20 +136,20 @@
       <div class="delimeter"></div>
       <div class="work__descr">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза <br>
         и ваших требований по срокам и бюджету.</div>
-      <div class="row work__items">
-        <div class="col-lg-4 work__item">
+      <div class="row justify-content-md-center work__items">
+        <div class="col-lg-4 col work__item">
           <img src="img/our_work/insurance.png" alt="Страховка груза">
           <div class="work__item_title">Страховка груза</div>
           <div class="work__item_text">Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.
           </div>
         </div>
-        <div class="col-lg-4 work__item">
+        <div class="col-lg-4 col work__item">
           <img src="img/our_work/logistics.png" alt="Логистика">
           <div class="work__item_title">Логистика последней мили</div>
           <div class="work__item_text">Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.
           </div>
         </div>
-        <div class="col-lg-4 work__item">
+        <div class="col-lg-4 col work__item">
           <img src="img/our_work/looking_forward.png" alt="Всегда смотрим вперед">
           <div class="work__item_title">Мы всегда смотрим вперед</div>
           <div class="work__item_text">Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях. 
@@ -173,7 +173,7 @@
       <div class="delimeter"></div>
       <div class="price__descr">Перевозки грузов на дальние расстояния без каких-либо ограничений. <br>
         Любой груз доставим вовремя.</div>
-      <div class="row price__items">
+      <div class="row justify-content-md-center price__items">
         <div class="price__item col-lg-3">
           <div class="price__item_header"><div class="price__item_center">Доставка морем</div></div>
           <img src="icons/prices/shipping.png" alt="Доставка морем" class="price__item_img">
@@ -218,7 +218,7 @@
     <div class="container">
       <h2 class="consultation__header">Заказать бесплатную консультацию</h2>
       <div class="consultation__img"><img src="icons/consultation.svg" alt="Консультация"> </div>
-      <form action="" class="consultation-form" class="feed-form" action="#">
+      <form class="consultation-form feed-form" id="consultation-form" action="#">
         <input name="name" placeholder="Ваше имя..." type="text">
         <input name="phone" placeholder="Ваш номер телефона...">
         <input name="email" placeholder="Ваш e-mail..." type="email">
@@ -238,7 +238,7 @@
 
   <section class="scheme" id="scheme">
     <div class="container">
-      <div class="h2 title_black">Схема работы с нами</div>
+      <h2 class="title_black">Схема работы с нами</h2>
       <div class="scheme__items">
         <div class="scheme__item">
           <img src="icons/work_cheme/request.svg" alt="Заявка" class="scheme__img">
@@ -318,11 +318,11 @@
           <h2 class="questions__block-title">Остались вопросы?</h2>
           <div class="questions__block-subtitle">Напишите нам!</div>
         </div>
-        <form action="" class="questions-form">
+        <form action="#" id="question-form" class="questions-form feed-form">
           <input name="name" placeholder="Ваше имя..." type="text">
           <input name="phone" placeholder="Ваш номер телефона...">
           <input name="email" placeholder="Ваш e-mail..." type="email">
-          <textarea name="question" id="" cols="80" rows="3" placeholder="Сообщение..."></textarea>
+          <textarea name="question" cols="80" rows="3" placeholder="Сообщение..."></textarea>
         </form>
         <button class="button_main">Отправить заявку</button>
       </div>
@@ -331,6 +331,22 @@
 
   <footer id="contacts">
     <div class="" id="map"></div>
+    <div class="container">
+      <div class="footer__inf">
+        <img src="icons/header/logo.png" alt="GlobalOpt" class="footer__logo">
+        <h2 class="footer__text">Global Opt - Доставка грузов из Китая в Россию и СНГ</h2>
+        <div class="footer__right">
+          <div class="footer__contacts">
+            <div class="footer__phone">
+              Есть вопросы?
+              <a href="tel:+79264230100">+7(926)423 01 00</a>
+            </div>
+            <button data-modal="consultation" class="button_main">перезвоните мне</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer__delimeter"></div>
+    </div>
   </footer>
 
   <a href="#up" class="pageup"><img src="icons/chevron-circle-up-solid.svg" alt="up"></a>
@@ -338,42 +354,41 @@
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
-  <!-- <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/wow.min.js"></script> -->
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=e43f37bc-6ab0-4a79-9f48-cc1046e144b5" type="text/javascript"></script>
   <script>
     var myMap;
-ymaps.ready(init);
-function init() {
-    // Создание экземпляра карты и его привязка к контейнеру с
-    // заданным id ("map").
-    myMap = new ymaps.Map('map', {
-        // При инициализации карты обязательно нужно указать
-        // её центр и коэффициент масштабирования.
-        center: [55.747956, 37.627202], // Москва
-        zoom: 18
+    ymaps.ready(init);
+    function init() {
+        // Создание экземпляра карты и его привязка к контейнеру с
+        // заданным id ("map").
+        myMap = new ymaps.Map('map', {
+            // При инициализации карты обязательно нужно указать
+            // её центр и коэффициент масштабирования.
+            center: [55.747956, 37.627202], // Москва
+            controls: ['zoomControl', 'geolocationControl'],
+            zoom: 18
+            });
+        var placemark = new ymaps.Placemark([55.747960, 37.627202], {
+            balloonContent: "<div class='title_main'>г. Москва<br>ул. Садовническая, дом 5, офис 4-6<br>700 от м. Новокузнецкая<br>Тел: +7 (926) 423 01 00<br>info@glopt.ru</div>",
+            hintContent: "GlobalOpt"
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'icons/pointer.png',
+            // Размеры метки.
+            iconImageSize: [80, 80],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-10, -50]
         });
-    var placemark = new ymaps.Placemark([55.747960, 37.627202], {
-        balloonContent: "<div class='title_main'>GlobalOpt 123</div>",
-        hintContent: "GlobalOpt"
-    }, {
-        // Опции.
-        // Необходимо указать данный тип макета.
-        iconLayout: 'default#image',
-        // Своё изображение иконки метки.
-        iconImageHref: 'icons/pointer.png',
-        // Размеры метки.
-        iconImageSize: [80, 80],
-        // Смещение левого верхнего угла иконки относительно
-        // её "ножки" (точки привязки).
-        // iconImageOffset: [-5, -38]
-    });
-    myMap.geoObjects.add(placemark);
-    // placemark.balloon.open();
-    }
-    
-
+        myMap.geoObjects.add(placemark);
+        // placemark.balloon.open();
+        }
   </script>
   <script src="js/script.js"></script>
 </body>
